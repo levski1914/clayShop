@@ -54,6 +54,15 @@ This project is an interactive product page for an e-commerce application. It fe
 ### Installation
 
 1. Clone the repository:
-   ```bash
 
+   ```bash
+        git clone https://github.com/levski1914/clayShop.git
+   ```
+
+   ```bash
+        npm install
+   ```
+
+   ```bash
+        npm run dev
    ```
