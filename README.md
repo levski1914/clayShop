@@ -1,4 +1,4 @@
-# **E-Commerce Product Page**
+# **E-Commerce ClayShop Page**
 
 ## **Description**
 
