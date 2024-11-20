@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root {
+  font-family: 'Open Sans',sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #1B2437;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: #F6F6F6 !important;
+   
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.sizeColor{
+  background-color: #EDA3B5 !important;
+}
+.color{
+  width: 30px;
+  height: 30px;
+}
+.image-gallery{
+  height: 100%;
+}
+
+.image-gallery-image{
+  height: 436px;
+}
+ .react-rater{
+  display: flex !important;
+  gap: 10px !important;
+} 
+ 
+.react-rater-star{
+  font-size: 2em;
+  color: #C7C7CC;
+}
+
+.react-rater-star.is-active-half::before{
+  color: #F4A2B6 !important ;
+}
+.react-rater-star.is-active{
+  color: #F4A2B6 !important;
+}
+
+.buttonActive{
+  border-bottom: 1px solid #EDA3B5 !important;
+  color: #EDA3B5 !important;
+}
+.buttonUnactive{
+  border-bottom: 1px solid #EFEFF4 !important;
+  color: #C7C7CC !important;
+}
+
+.inputName1 input,.inputEmail1 input{
+  height: 50px !important;
+  
+}
+
+.inputName1 input::placeholder,.inputEmail1 input::placeholder{
+  color: #C7C7CC;
+}
+.inputName1 input:focus{
+  border: 2px solid #EDA3B5;
+  box-shadow: 0 0 0 .25rem #EDA3B5;
+}
+
+.inputEmail1 input:focus{
+  border: 2px solid #EDA3B5;
+  box-shadow: 0 0 0 .25rem #EDA3B5;
+
+}
+
+.inputTextArea textarea{
+  height: 150px !important;
+}
+
+.inputTextArea textarea::placeholder{
+  color: #C7C7CC;
+
+}
+
+.inputTextArea textarea:focus{
+  border: 2px solid #EDA3B5;
+  box-shadow: 0 0 0 .25rem #EDA3B5;
+
+}
+
+.submitReview button{
+  background-color: #fff;
+  border: 2px solid #EDA3B5 ;
+  color: #EDA3B5;
+  border-radius: 15px;
+}
+
+.submitReview button:hover{
+  transition: all .3s ease-in-out;
+    background-color: #EDA3B5;
+    color: #1B2437;
+}
+
+.addToCart{
+  border:2px solid #EDA3B5 !important;
+  color: #EDA3B5 !important; 
+}
+
+.addToCart:hover{
+  background-color: #EDA3B5 !important;
+  color: #fff !important;
+  transition: all .3s ease-in-out !important;
+}
+
+.increaseDecrease button{
+  border: 2px solid #D1D1D6;
+  color: #D1D1D6;
+width: 45px;
+height: 45px;
+border-radius: 20px;
+margin: 0 1em;
+}
+
+.endButtons button{
+  width: 120px;
+  height: 55px;
+}
+
+
+.hotLinks a{
+  color: #8E8E93 !important;
+}
+
+.hotLinks a:hover{
+  color: #1B2437 !important;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.buyButtons button{
+  width: 160px;
+  height: 52px;
+  border-radius: 20px;
+}
+
+
+@media (prefers-color-scheme: light) {
+ 
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
